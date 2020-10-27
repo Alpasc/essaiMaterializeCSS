@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Site photo</title>
+
+    <!-- Icones -->
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+
+    <!-- Compiled and minified CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Barre de navigation -->
+
+    <header>
+      <nav class="nav-wrapper transparent">
+        <div class="container">
+          <a href="#" class="brand-logo">Logo</a>
+          <a href="#" class="sidenav-trigger" data-target="mobile-menu">
+            <i class="material-icons">menu</i>
+          </a>
+          <ul class="right hide-on-med-and-down">
+            <li><a href="#projets">Projets</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+          <ul class="sidenav grey lighten-2" id="mobile-menu">
+            <li><a href="#projet">Projets</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+
+      <div class="container">
+        <div class="row">
+          <h1>Mon titre</h1>
+          <span class="sousT">Et mon sous-titre</span>
+          <br />
+          <div class="btn purple darken-3 btnH">Bouton 1</div>
+          <div class="btn purple darken-4 btnH">Bouton 2</div>
+        </div>
+      </div>
+    </header>
+
+    <!--  Section photos -->
+
+    <section id="projets" class="SectionPhotos scrollspy">
+      <div class="container">
+        <div class="row">
+          <h2 class="center-align">Mes projets</h2>
+
+          <div class="photos col s12 m6 l4">
+            <img
+              class="materialboxed responsive-img"
+              src="ressources/img1gal.jpeg"
+              alt="image 1 galerie"
+            />
+          </div>
+
+          <div class="photos col s12 m6 l4">
+            <img
+              class="materialboxed responsive-img"
+              src="ressources/img2gal.jpeg"
+              alt="image 2 galerie"
+            />
+          </div>
+
+          <div class="photos col s12 m6 l4">
+            <img
+              class="materialboxed responsive-img"
+              src="ressources/img3gal.jpeg"
+              alt="image 3 galerie"
+            />
+          </div>
+
+          <div class="photos col s12 m6 l4">
+            <img
+              class="materialboxed responsive-img"
+              src="ressources/img4gal.jpeg"
+              alt="image 4 galerie"
+            />
+          </div>
+
+          <div class="photos col s12 m6 l4">
+            <img
+              class="materialboxed responsive-img"
+              src="ressources/img5gal.jpeg"
+              alt="image 5 galerie"
+            />
+          </div>
+
+          <div class="photos col s12 m6 l4">
+            <img
+              class="materialboxed responsive-img"
+              src="ressources/img6gal.jpeg"
+              alt="image 6 galerie"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--  premiere section parallax -->
+
+    <section>
+      <div class="parallax-container secPar1">
+        <div class="parallax">
+          <img src="ressources/par1.jpg" alt="image parallax" />
+        </div>
+      </div>
+    </section>
+
+    <!-- section services -->
+
+    <section id="services" class="scrollspy">
+
+      <div class="container">
+        <div class="row">
+          <h2 class="center-align headerServices">Mes Services</h2>
+          <div class="flexIco col s12 m8 offset-m2 l4">
+            <i class="material-icons large">monetization_on</i>
+            <p class="center-align">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt vel recusandae pariatur praesentium necessitatibus dolore!</p>
+          </div>
+  
+          <div class="flexIco col s12 m8 offset-m2 l4">
+            <i class="material-icons large">movie</i>
+            <p class="center-align">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt vel recusandae pariatur praesentium necessitatibus dolore!</p>
+          </div>
+  
+          <div class="flexIco col s12 m8 offset-m2 l4">
+            <i class="material-icons large">palette</i>
+            <p class="center-align">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt vel recusandae pariatur praesentium necessitatibus dolore!</p>
+          </div>
+        </div>
+      </div>
+  
+      <hr class="separateur">
+  
+      <div class="container secondContServ">
+        <div class="row">
+          <div class="flexIco col s12 m8 offset-m2 l4">
+            <i class="material-icons large">gavel</i>
+            <p class="center-align">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt vel recusandae pariatur praesentium necessitatibus dolore!</p>
+          </div>
+  
+          <div class="flexIco col s12 m8 offset-m2 l4">
+            <i class="material-icons large">camera_alt</i>
+            <p class="center-align">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt vel recusandae pariatur praesentium necessitatibus dolore!</p>
+          </div>
+  
+          <div class="flexIco col s12 m8 offset-m2 l4">
+            <i class="material-icons large">forum</i>
+            <p class="center-align">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt vel recusandae pariatur praesentium necessitatibus dolore!</p>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+
+    <!--  seconde section parallax -->
+
+    <section>
+      <div class="parallax-container secPar1">
+        <div class="parallax">
+          <img src="ressources/par2.jpg" alt="image parallax 2" />
+        </div>
+      </div>
+    </section>
+
+    <!-- Section photos droite gauche -->
+
+    <section>
+
+      <div class="container photosDG">
+        <div class="row">
+          <div class="col s12 m6 offset-m3 l5">
+            <img src="ressources/3img.jpg" alt="image noir et blanc" class="troisImg responsive-img">
+          </div>
+          <div class="col l5 offset-l2 m12 s12">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil ad dolore minus quo eaque numquam et, repellendus nobis harum maiores.</p>
+            <blockquote>Je suis une citation dans un blockquote</blockquote>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corrupti sapiente pariatur ullam omnis error optio perspiciatis, laborum quam. Dignissimos tenetur, iure obcaecati nulla reprehenderit et harum reiciendis! Fuga itaque aut, molestias repudiandae sit ea molestiae necessitatibus similique, deleniti excepturi eveniet nesciunt cumque dignissimos rerum suscipit maxime, quia ratione totam debitis quisquam in. Repellendus incidunt perspiciatis fuga quam dolores, dignissimos, consectetur error provident sit cupiditate dicta mollitia, laborum magni vitae id?</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="container photosDG">
+        <div class="row">
+          <div class="col l5 m12 s12">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil ad dolore minus quo eaque numquam et, repellendus nobis harum maiores.</p>
+            <blockquote>Je suis une citation dans un blockquote</blockquote>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corrupti sapiente pariatur ullam omnis error optio perspiciatis, laborum quam. Dignissimos tenetur, iure obcaecati nulla reprehenderit et harum reiciendis! Fuga itaque aut, molestias repudiandae sit ea molestiae necessitatibus similique, deleniti excepturi eveniet nesciunt cumque dignissimos rerum suscipit maxime, quia ratione totam debitis quisquam in. Repellendus incidunt perspiciatis fuga quam dolores, dignissimos, consectetur error provident sit cupiditate dicta mollitia, laborum magni vitae id?</p>
+          </div>
+          <div class="col s12 m6 offset-m3 l5 offset-l2">
+            <img src="ressources/freestocks-TNEmcss1QWU-unsplash (1).jpg" alt="image noir et blanc" class="troisImg responsive-img">
+          </div>
+        </div>
+      </div>
+
+      <div class="container photosDG">
+        <div class="row">
+          <div class="col s12 m6 offset-m3 l5">
+            <img src="ressources/joanna-nix-walkup-olYYVMQATos-unsplash (1).jpg" alt="image noir et blanc" class="troisImg responsive-img">
+          </div>
+          <div class="col l5 offset-l2 m12 s12">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil ad dolore minus quo eaque numquam et, repellendus nobis harum maiores.</p>
+            <blockquote>Je suis une citation dans un blockquote</blockquote>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corrupti sapiente pariatur ullam omnis error optio perspiciatis, laborum quam. Dignissimos tenetur, iure obcaecati nulla reprehenderit et harum reiciendis! Fuga itaque aut, molestias repudiandae sit ea molestiae necessitatibus similique, deleniti excepturi eveniet nesciunt cumque dignissimos rerum suscipit maxime, quia ratione totam debitis quisquam in. Repellendus incidunt perspiciatis fuga quam dolores, dignissimos, consectetur error provident sit cupiditate dicta mollitia, laborum magni vitae id?</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section Contact -->
+
+    <section id="contact" class="contact scrollspy">
+      <h2 class="center-align">Contactez-nous</h2>
+      <div class="container">
+
+        <div class="row">
+          <form action="" class="col s12">
+            <div class="row">
+              <div class="input-field col s6">
+                <input type="text" id="prenom" placeholder="Entrez votre prénom">
+                <label for="prenom">Prénom</label>
+              </div>
+
+              <div class="input-field col s6">
+                <input type="text" id="nom" placeholder="Entrez votre nom">
+                <label for="nom">Nom</label>
+              </div>
+
+              <div class="input-field col s12">
+                <input type="text" id="nom" placeholder="Entrez votre adresse email">
+                <label for="nom">Email</label>
+              </div>
+
+              <div class="input-field col s12">
+                <textarea id="textarea" cols="30" rows="10" class="materialize-textarea"></textarea>
+                <label for="textarea">Écrivez-nous votre message</label>
+              </div>
+
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+
+    <p class="center-align">&copy; Tous droits réservés</p>
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+    <script>
+      M.AutoInit();
+    </script>
+  </body>
+</html>
